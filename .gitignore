@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+#installed db
+dbdata/
+
+# .env files
+*.env
+*.env.example
+*.env.local
+*.env.staging
+
 # User-specific files
 *.rsuser
 *.suo
